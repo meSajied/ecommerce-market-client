@@ -1,0 +1,102 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electronics",
+      "subcategories": [
+        {
+          "id": 1,
+          "name": "Mobiles",
+          "products": [
+            {
+              "id": 1,
+              "name": "iPhone 14",
+              "price": 999,
+              "description": "Latest Apple iPhone with 128GB storage",
+              "stock": "In Stock",
+              "status": "INACTIVE",
+              "discount": "10%",
+              "image_url": "iphone14.jpg"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Laptops",
+          "products": [
+            {
+              "id": 2,
+              "name": "MacBook Pro",
+              "price": 1999,
+              "description": "Apple MacBook Pro with M2 chip",
+              "stock": "Not In Stock",
+              "status": "ACTIVE",
+              "discount": "15%",
+              "image_url": "macbookpro.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Fashion",
+      "subcategories": [
+        {
+          "id": 3,
+          "name": "Men's Clothing",
+          "products": [
+            {
+              "id": 3,
+              "name": "Men's T-Shirt",
+              "price": 25,
+              "description": "100% Cotton Men's T-Shirt",
+              "stock": "In Stock",
+              "status": "INACTIVE",
+              "discount": null,
+              "image_url": "men_tshirt.jpg"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Women's Clothing",
+          "products": [
+            {
+              "id": 4,
+              "name": "Women's Dress",
+              "price": 75,
+              "description": "Elegant Women's Dress",
+              "stock": "In Stock",
+              "status": "ACTIVE",
+              "discount": "20%",
+              "image_url": "womens_dress.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Home & Kitchen",
+      "subcategories": [
+        {
+          "id": 5,
+          "name": "Furniture",
+          "products": [
+            {
+              "id": 5,
+              "name": "Sofa",
+              "price": 500,
+              "description": "Comfortable 3-seater sofa",
+              "stock": "In Stock",
+              "status": "ACTIVE",
+              "discount": null,
+              "image_url": "sofa.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
